@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 var meow = require('meow');
+var chalk = require('chalk');
 var blahCode = require('blah-code');
 
 var cli = meow([
@@ -27,9 +28,9 @@ var cli = meow([
 });
 
 if (cli.input[0] === undefined) {
-	console.log('I need input. Enter `blah-code --help` if you need assistance`');
+	console.log(chalk.red('I need input. Enter `' + chalk.bold('blah-code --help') + '` if you need assistance`'));
 } else if (cli.flags.decode) {
-	console.log(blahCode.decode(cli.input[0]));
+	console.log(chalk.green(blahCode.decode(cli.input[0])));
 } else {
-	console.log(blahCode.encode(cli.input[0]));
+	console.log(chalk.green(blahCode.encode(cli.input[0])));
 }
