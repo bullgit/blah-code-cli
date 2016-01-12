@@ -10,7 +10,7 @@ var cli = meow([
 	'',
 	'Options',
 	'  --encode, -e  Returns the blah code representation of the given text input [Default: true]',
-	'  --decode, -e  Returns regular text of the given blah code [Default: false]',
+	'  --decode, -d  Returns regular text of the given blah code [Default: false]',
 	'  --help,   -h  Shows the help',
 	'',
 	'Examples',
