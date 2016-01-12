@@ -1,6 +1,6 @@
 {
   "name": "blah-code-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Encode and decode blah code via the command line",
   "license": "MIT",
   "repository": "bullgit/blah-code-cli",
@@ -29,6 +29,7 @@
     "blah"
   ],
   "dependencies": {
+    "blah-code": "^1.1.2",
     "meow": "^3.6.0"
   },
   "devDependencies": {
