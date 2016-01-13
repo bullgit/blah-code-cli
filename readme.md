@@ -30,7 +30,7 @@ $ blah-code --help
 
   Options
     --encode, -e  Returns the blah code representation of the given text input [Default: true]
-    --decode, -e  Returns regular text of the given blah code
+    --decode, -d  Returns regular text of the given blah code
     --help,   -h  Shows the help
 
   Examples
