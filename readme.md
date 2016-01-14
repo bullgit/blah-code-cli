@@ -26,7 +26,7 @@ $ blah-code --help
   Encode and decode blah code via the command line
 
   Usage
-    $ blah-code [input]
+    $ blah-code <input> [option]
 
   Options
     --encode, -e  Returns the blah code representation of the given text input [Default: true]
