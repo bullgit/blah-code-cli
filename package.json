@@ -29,12 +29,12 @@
     "blah"
   ],
   "dependencies": {
-    "blah-code": "^1.1.2",
+    "blah-code": "^2.0.1",
     "chalk": "^1.1.1",
     "meow": "^3.6.0"
   },
   "devDependencies": {
-    "ava": "^0.10.0",
-    "xo": "^0.12.1"
+    "ava": "^0.12.0",
+    "xo": "^0.13.0"
   }
 }
