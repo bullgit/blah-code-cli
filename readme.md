@@ -21,24 +21,25 @@ $ npm install blah-code-cli -g
 ## Usage
 
 ```
-$ blah-code --help
+$ blah-code --help          
 
   Encode and decode blah code via the command line
 
   Usage
-    $ blah-code <input> [option]
+    $ blah-code [input]
 
   Options
     --encode, -e  Returns the blah code representation of the given text input [Default: true]
-    --decode, -d  Returns regular text of the given blah code
+    --decode, -d  Returns regular text of the given blah code [Default: false]
+    --ooks, -o    Uses this weird ape language instead of blah code [Default: false]
     --help,   -h  Shows the help
 
   Examples
-    $ blah-code Hi!
-    blah blah blah blah blah blah blah blah blah, blah blah blah blah blah blah blah blah blah blah, blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+    $ blah-code "Hi :ghost:"
+    blaa bluh. blah bleh bluuh. blaah bluh. bluuh bluuh blaah bluuh blaa. bluuh blehh bleeh bleeh blaah
 
-    $ blah-code --decode "blah blah blah blah blah blah blah blah blah, blah blah blah blah blah blah blah blah blah blah, blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah"
-    hi!
+    $ blah-code "blaa bluh. blah bleh bluuh. blaah bluh. bluuh bluuh blaah bluuh blaa. bluuh blehh bleeh bleeh blaah" --decode
+    Hi :ghost:
 ```
 
 ## Related
