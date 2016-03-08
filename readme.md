@@ -35,11 +35,11 @@ $ blah-code --help
     --help,   -h  Shows the help
 
   Examples
-    $ blah-code "Hi :ghost:"
+    $ blah-code "Hi 👻"
     blaa bluh. blah bleh bluuh. blaah bluh. bluuh bluuh blaah bluuh blaa. bluuh blehh bleeh bleeh blaah
 
     $ blah-code "blaa bluh. blah bleh bluuh. blaah bluh. bluuh bluuh blaah bluuh blaa. bluuh blehh bleeh bleeh blaah" --decode
-    Hi :ghost:
+    Hi 👻
 ```
 
 ## Related
