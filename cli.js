@@ -31,6 +31,7 @@ var cli = meow([
 
 if (cli.input[0] === undefined) {
 	console.log(chalk.red('I need input. Enter `' + chalk.bold('blah-code --help') + '` if you need assistance.'));
+	process.exit(1);
 } else if (cli.flags.decode) {
 	if (cli.flags.ooks) {
 		console.log(chalk.green(blahCode.decode(cli.input[0], 'ooks')));
